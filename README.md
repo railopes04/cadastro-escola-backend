@@ -60,30 +60,6 @@ Certifique-se de ter instalado em sua máquina:
 
 ---
 
-### Endpoints da API
-
-A API oferece endpoints para gerenciar **Alunos** e **Professores**.
-
-#### Endpoints de Alunos (`/alunos`)
-
-| Método | Endpoint | Descrição | Corpo da Requisição |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/alunos` | Lista todos os alunos. | `Nenhum` |
-| `POST` | `/alunos` | Cadastra um novo aluno. | `x-www-form-urlencoded`: `nome`, `email`, `idade` |
-| `PUT` | `/alunos/:id` | Atualiza o nome, e-mail e/ou idade de um aluno. | `x-www-form-urlencoded`: `nome`, `email`, `idade` |
-| `DELETE` | `/alunos/:id`| Exclui um aluno pelo ID. | `Nenhum` |
-
-#### Endpoints de Professores (`/professores`)
-
-| Método | Endpoint | Descrição | Corpo da Requisição |
-| :--- | :--- | :--- | :--- |
-| `GET` | `/professores` | Lista todos os professores. | `Nenhum` |
-| `POST` | `/professores` | Cadastra um novo professor. | `x-www-form-urlencoded`: `nome`, `email`, `idade` |
-| `PUT` | `/professores/:id` | Atualiza o nome, e-mail e/ou idade de um professor. | `x-www-form-urlencoded`: `nome`, `email`, `idade` |
-| `DELETE`| `/professores/:id`| Exclui um professor pelo ID. | `Nenhum` |
-
----
-
 ### Estrutura do Projeto
 
 A aplicação é organizada no padrão MVC.
